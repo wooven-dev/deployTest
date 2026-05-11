@@ -2,6 +2,6 @@
   "name": "deploy-test",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/"
+    "build": "mkdir -p dist && node build.js"
   }
 }
